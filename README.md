@@ -12,3 +12,4 @@ The project uses a technology/framework of :
 2)CSS (Cascading Style Sheets)       -- For applying styles and animations
 3)JavaScript                         -- For making a page responsive
 
+I have attached a screenshot of the project too in this repository along with all the other files
