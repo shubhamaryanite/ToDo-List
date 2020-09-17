@@ -13,7 +13,7 @@ const generateTemplate=todo=>{
     list.innerHTML+=html;
 };
 
-generateTemplate(
+
 //take event as a parameter in call by function
 addForm.addEventListener('submit', e=>{
     e.preventDefault();
@@ -22,7 +22,7 @@ addForm.addEventListener('submit', e=>{
     //console.log(todo);
     if(todo.length>0)
     {
-        todo);
+        generateTemplate(todo);
         addForm.reset();
     }
 });
@@ -33,7 +33,7 @@ list.addEventListener('click', e=>{
     //only works whwn we will click on delete/trash icon
     if(e.target.classList.contains('delete'))
     {
-        //delte li item itself
+        //delte list item itself
         e.target.parentElement.remove();
     }
 });
